@@ -48,7 +48,7 @@ namespace pryEmilianoFernandezEtapa2
             ImagenVehiculo.Image = Imagen;
             ImagenVehiculo.SizeMode = PictureBoxSizeMode.StretchImage;
             ImagenVehiculo.Location = new Point (posX,posY);
-            ImagenVehiculo.Size = new Size(100 , 100);
+            ImagenVehiculo.Size = new Size(60 , 60);
             ImagenVehiculo.BackColor = Color.White;
             Vehiculo.Controls.Add(ImagenVehiculo);
 
@@ -105,16 +105,16 @@ namespace pryEmilianoFernandezEtapa2
                 switch (direccion)
                 {
                     case 0: // Arriba
-                        nuevoTop -= 5; // Puedes ajustar el valor de acuerdo a la velocidad deseada
+                        nuevoTop -= 10; // Puedes ajustar el valor de acuerdo a la velocidad deseada
                         break;
                     case 1: // Abajo
-                        nuevoTop += 5; // Puedes ajustar el valor de acuerdo a la velocidad deseada
+                        nuevoTop += 10; // Puedes ajustar el valor de acuerdo a la velocidad deseada
                         break;
                     case 2: // Izquierda
-                        nuevoLeft -= 5; // Puedes ajustar el valor de acuerdo a la velocidad deseada
+                        nuevoLeft -= 10; // Puedes ajustar el valor de acuerdo a la velocidad deseada
                         break;
                     case 3: // Derecha
-                        nuevoLeft += 5; // Puedes ajustar el valor de acuerdo a la velocidad deseada
+                        nuevoLeft += 10; // Puedes ajustar el valor de acuerdo a la velocidad deseada
                         break;
                 }
 

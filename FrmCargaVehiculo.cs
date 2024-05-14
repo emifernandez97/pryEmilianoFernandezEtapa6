@@ -60,7 +60,7 @@ namespace pryEmilianoFernandezEtapa2
 
         private void btnMover_Click(object sender, EventArgs e)
         {
-            objetoVehiculo.timerMovimientoSuculento.Interval = 100; // intervalo milesima * seg
+            objetoVehiculo.timerMovimientoSuculento.Interval = 50; // intervalo milesima * seg
             objetoVehiculo.timerMovimientoSuculento.Tick += objetoVehiculo.timerMovimientoSuculento_Tick;
             timerColision.Start();
             objetoVehiculo.moverVehiculo(PctVehiculo);
